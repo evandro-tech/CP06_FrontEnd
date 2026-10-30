@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CP06 Frontend Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 text-slate-800 antialiased">
+  <header class="bg-white shadow-sm">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
+      <h1 class="text-xl font-bold text-slate-900">Top Front-end Books</h1>
+      <a href="https://www.casadocodigo.com.br/collections/livros-de-front-end" target="_blank" rel="noreferrer"
+        class="rounded-full bg-cyan-500 px-4 py-2 text-sm font-medium text-white transition hover:bg-cyan-600">
+        Casa do Código
+      </a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6">
+    <section class="mb-8">
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-600">Front-end</p>
+      <h2 class="mt-2 text-3xl font-bold text-slate-900">Livros para aprender e evoluir</h2>
+      <p class="mt-3 max-w-xl text-sm leading-6 text-slate-600">
+        Uma seleção simples e útil com dicas, referências e materiais que ajudam no caminho de quem quer dominar
+        interfaces web.
+      </p>
+    </section>
+
+    <section id="book-list" class="grid gap-6 md:grid-cols-2 xl:grid-cols-3"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
